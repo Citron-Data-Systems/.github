@@ -11,7 +11,7 @@ The hardware involved is just a raspberry pi, a cheap [MCP2515 board](https://ww
 During our races we stick a hotspot in the car - either a dedicated one or an old phone with a data plan will work. For just sending CAN traffic, the throughput requirements are not high. 
 
 
-### citron.systems 
+### [citron.systems](https://citron.systems)
 lives on the internet. It hosts a visualization app and the realtime pubsub system that handles signals from the car. 
 
 You give it a dbc definition which describes the signals on your CAN bus that you want to collect. All those signals are then sent to the server to be visualized. It doesn't matter which ECU you have as long as you can [find or create a DBC file](https://www.csselectronics.com/pages/can-dbc-file-database-intro) that describes the traffic on your bus. 
