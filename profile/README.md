@@ -18,7 +18,7 @@ You give it a dbc definition which describes the signals on your CAN bus that yo
 
 
 ## Roadmap
-### Sofware
+### Software
 * Predictive Lap timer
 * Better offline support + full fidelity logging on the can-client. 
 * Live video 
